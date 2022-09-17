@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+    --less-white: rgb(249, 250, 251);
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    padding-top: 150px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1600px;
+    display: flex;
+    box-shadow: 0px 1px 15px rgb(206, 204, 204);
+}
+
+.image-container {
+    width: 33%;
+    height: 1080px;
+    z-index: 2;
+    background-size: cover;
+
+    background-image: url(https://images.unsplash.com/photo-1585621199798-561c56ad8060?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+}
+
+.logo {
+    color: white;
+    position: relative;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.transbox {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.image-footer {
+    color: white;
+    position: relative;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+}
+
+.welcome-text {
+    background-color: var(--less-white);
+    height: 35%;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    align-items: flex-start;
+    padding-left: 70px;
+    padding-right: 0px;
+    z-index: 2;
+    line-height: 1.5;
+}
+
+#welcome {
+    margin-bottom: 10px;
+}
+
+.author {
+    margin-top: 10px;
+}
+
+.register-area {
+    height: 30%;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 70px;
+    gap: 10px;
+    box-shadow: 0px 1px 15px rgb(206, 204, 204);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.button-area {
+    padding-top: 70px;
+    padding-left: 73px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.name,
+.contact,
+.password {
+    margin-left: 3px;
+    display: flex;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.fname,
+.lname,
+.email,
+.pnumber,
+.pword,
+.cpword {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 3px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(110, 152, 211);
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 8px rgb(114, 113, 113);
+}
+
+button:hover {
+    background-color: rgb(88, 134, 199);
+}
+
+button:active {
+    box-shadow: 3px 3px 10px inset rgb(68, 68, 68);
+}
+
+label {
+    font-size: 0.4em;
+}
+
+input {
+    width: 280px;
+    height: 32px;
+    background-color: #ffffff;
+    border: 1.5px solid #d6d9dc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 6px;
+    background-color: rgb(255, 254, 254);
+}
+
+input:focus {
+    outline: none !important;
+    border-color: rgb(18, 97, 245);
+    box-shadow: 1px 1px 3px rgb(121, 117, 117);
+}
+
+input:hover {
+    border-color: gray;
+}
+
+.button-area {
+    height: 35%;
+    background-color: var(--less-white);
+}
+
+#doge {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    z-index: 2;
+    opacity: 1;
+}
+
+#welcome {
+    width: 80%;
+}
+
+#reg {
+    font-weight: bold;
+    margin: 22px 0px 18px 0px;
+}
